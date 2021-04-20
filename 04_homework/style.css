@@ -1,0 +1,73 @@
+html,
+body {
+  font-family: serif;
+}
+body {
+  margin: 20px;
+}
+
+.sel {
+  display: flex;
+  margin: 0px 100px 0px 0px;
+}
+.sel__title {
+  margin: 0px 10px 0px 0px;
+}
+
+.weather {
+  display: flex;
+  align-items: center;
+}
+
+.out {
+    background: rgba(228, 216, 112, 0.788);
+    width: 300px;
+    height: 400px;
+    padding: 25px 25px;
+}
+.out__title {
+    text-align: center;
+    font-weight: 700;
+    margin: 0px 0px 30px 0px;
+
+}
+.out__main {
+    display: flex;
+}
+.out__city {
+    margin: 0px 5px 0px 0px;
+    display: flex;
+}
+.out__town {
+  margin: 0px 5px 0px 5px;
+  font-weight: 700;
+
+}
+
+.out__deg {
+  font-weight: 700;
+}
+
+.out__temp {
+    margin: 0px 0px 0px 5px;
+    
+
+}
+.out__humidity {
+  display: flex;
+}
+.out__humidity_curent {
+  margin: 0px 0px 0px 5px;
+  font-weight: 700;
+}
+.out__wind {
+  display: flex;
+}
+.out__wind_power {
+  margin: 0px 0px 0px 5px;
+  font-weight: 700;
+}
+.out__wind_power span {
+  font-weight: 400;
+
+}
